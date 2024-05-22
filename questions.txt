@@ -1,0 +1,17 @@
+Question 1:
+Write your answer here.
+sharedPtr1.use_count() = 4 // There are 4 pointers sharing the same object
+
+count (calling function) = 4  Within the function, there are 4 pointers sharing the same object
+count (ptr)              = 1  // Outside the function, there is 1 pointer holding the object
+
+Process finished with exit code 0
+
+Question 2:
+Write your answer here.
+sharedPtr1.use_count() = 3  // There are now 3 pointers sharing the same object (one pointer less
+
+count (calling function) = 3  // Within the function, there are 3 pointers sharing the same object
+count (ptr)              = 1  // Outside the function, there is still 1 pointer holding the object
+
+Process finished with exit code 0

@@ -1,0 +1,37 @@
+UpdateCTestConfiguration  from :/home/jdaehn/src/repos/msu/fa23/grading/scripts/lab06-bertrandrusa/cmake-build-debug/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/home/jdaehn/src/repos/msu/fa23/grading/scripts/lab06-bertrandrusa/cmake-build-debug/DartConfiguration.tcl
+Test project /home/jdaehn/src/repos/msu/fa23/grading/scripts/lab06-bertrandrusa/cmake-build-debug
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: google-tests_NOT_BUILT
+Could not find executable google-tests_NOT_BUILT
+Looked in the following places:
+google-tests_NOT_BUILT
+google-tests_NOT_BUILT
+Release/google-tests_NOT_BUILT
+Release/google-tests_NOT_BUILT
+Debug/google-tests_NOT_BUILT
+Debug/google-tests_NOT_BUILT
+MinSizeRel/google-tests_NOT_BUILT
+MinSizeRel/google-tests_NOT_BUILT
+RelWithDebInfo/google-tests_NOT_BUILT
+RelWithDebInfo/google-tests_NOT_BUILT
+Deployment/google-tests_NOT_BUILT
+Deployment/google-tests_NOT_BUILT
+Development/google-tests_NOT_BUILT
+Development/google-tests_NOT_BUILT
+
+1: Test command: 
+1/1 Test #1: google-tests_NOT_BUILT ...........***Not Run   0.00 sec
+
+0% tests passed, 1 tests failed out of 1
+
+Total Test time (real) =   0.07 sec
+
+The following tests FAILED:
+	  1 - google-tests_NOT_BUILT (Not Run)
